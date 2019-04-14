@@ -2,7 +2,7 @@
  * @Author: D-lyw 
  * @Date: 2019-04-14 18:49:31 
  * @Last Modified by: D-lyw
- * @Last Modified time: 2019-04-14 23:03:57
+ * @Last Modified time: 2019-04-14 23:19:37
  */
 
 // 辅助函数
@@ -148,7 +148,7 @@ function doMoveNext(cur, x, y, driection){
     // 判断是否通关
     setTimeout(function(){
         if(!document.getElementsByClassName('box')[0]){
-            if(selectNode.value == 7){
+            if(selectNode.value == 6){
                 alert("恭喜通关!");
             }else {
                 selectNode.value += 1;
