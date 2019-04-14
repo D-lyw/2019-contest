@@ -1,0 +1,48 @@
+#container{
+    margin:auto;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#container div{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.padding{
+    background: url(../img/padding.jpg);
+    background-size: 40px 40px;
+}
+
+.person{
+    background: url(../img/person.jpeg);
+    background-size: 40px 40px;
+}
+
+.box{
+    background: url(../img/box.jpg);
+    background-size: 40px 40px;
+}
+.boxok{
+    background: url(../img/boxok.jpg);
+    background-size: 40px 40px;
+}
+.wall{
+    background: url(../img/walls.jpg);
+    background-size: 40px 40px;
+
+}
+
+.way{
+    background: url(../img/way.jpeg);
+    background-size: 40px 40px;
+
+}
+.target{
+    background: url(../img/target.png);
+    background-size: 40px 40px;
+
+}
